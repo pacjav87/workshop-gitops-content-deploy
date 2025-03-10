@@ -2,16 +2,16 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: managed-setup-a-<name>
+  name: managed-setup-a-22
   namespace: openshift-operators
 spec:
   destination:
     namespace: openshift-operators
     server: https://kubernetes.default.svc
-  project: project-sno-<name>
+  project: project-sno-22
   source:
-    repoURL: https://github.com/<your_user>/workshop-gitops-content-deploy.git
-    targetRevision: sno-<name>-setup
+    repoURL: https://github.com/alvarolop/workshop-gitops-content-deploy.git
+    targetRevision: sno-22-setup
     path: cluster-addons/cluster-addons-as/
   syncPolicy:
     automated:
