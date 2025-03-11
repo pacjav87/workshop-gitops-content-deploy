@@ -5,6 +5,6 @@
   "region": "eu-central-1",
   "cluster": {
     "name": "sno-13",
-    "address": "https://api.sno-13.sandbox2414.opentlc.com.opentlc.com:6443"
+    "address": "https://api.sno-13.sandbox2414.opentlc.com:6443"
   }
 }
