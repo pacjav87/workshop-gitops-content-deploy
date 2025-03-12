@@ -1,4 +1,5 @@
 clusters:
+
   sno-13:
     applicationNamespace: openshift-gitops
     namespace: ''
